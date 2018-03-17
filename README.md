@@ -10,11 +10,7 @@ Udemy HW
 
 3. Open a command line and go into the directory
 
-4. ```
-  bundle install
-  ```
-
-
+4. `bundle install`
 
 
 ## Instructions
