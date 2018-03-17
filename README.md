@@ -25,15 +25,15 @@ I must be able to pass the search term in question via the parameters to the `/`
 
 2. If I go to `http://localhost:4567` I should get `Error: No Search Term Provided`
 
-3. If I go to `http://localhost:4567/term=` I should get `Error: Search Term Empty`
+3. If I go to `http://localhost:4567/?term=` I should get `Error: Search Term Empty`
 
-4. If I go to `http://localhost:4567/term=java` I should get something like `java: 3720546`
+4. If I go to `http://localhost:4567/?term=java` I should get something like `java: 3720546`
 
 
 
 ### Specifications - Part 2 [50 points]
 
-1. If I go to `http://localhost:4567/term=java` I should get something like `java: 3720546` AND that number should come from using the `get_search_count(term)` method, which you will finish implementing
+1. If I go to `http://localhost:4567/?term=java` I should get something like `java: 3720546` AND that number should come from using the `get_search_count(term)` method, which you will finish implementing
 
 2. The `get_search_count(term)` method needs to actually go out and get the value from the internet.
 
